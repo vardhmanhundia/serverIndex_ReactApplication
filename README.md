@@ -50,6 +50,6 @@ These instructions will get your project running and deployed over Docker Hub.
 ## Versions
 Please checkout the previous versions for reference.
 ### Previous Versions:
-- [SpringBoot_MongoDB](https://github.com/vardhmanhundia/ServerIndexing_springBot)
-- [Server Index Swagg UI](https://github.com/vardhmanhundia/Swaggi_ServerIndex)
-- [ServerIndex_Dockerized](https://github.com/vardhmanhundia/ServerIndex_Dockerized)
+- [SpringBoot_MongoDB](https://github.com/vardhmanhundia/SpringBootMongodb_serverIndexing)
+- [Server Index Swagg UI](https://github.com/vardhmanhundia/SwaggUI_ServerIndexing)
+- [ServerIndex_Dockerized](https://github.com/vardhmanhundia/ServerIndexing_Dockerized)
