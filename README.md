@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ServerIndex React App
+ServerIndexing is a project created over Stack springBoot and Spring data MongoDB, Docker and React App The projects provides with multiple Rest API created by 
+Spring Boot Web Pack. The project provides all the basic CRUD operations to mongoDB database with user accessible REST APIs. It also provides
+additional features like auto increment and muliple addition, deletion, updation over the database with one request.It also provides an
+Customized Exception Response for some operations which could be modified as per the need. We add Swagg UI which is an excellent tool
+for documenting of APIs call and provides a very clear and precise documentation for the project. The MongoDB database as well as SpringBoot
+server is been containerize over the docker file for easy and fast deployment. React App Provides an Responsive Application for users to add, delete, modify, view, Search by Name, Multiple Add, Multiple Delete, Multiple Modify features in the application. The React App is powered with Material UI for consistant and professional look.
 
-## Available Scripts
+### Primary Goals:
+1. Create a professional Server Index React App.
+## Installation
+- The [Node.JS](https://nodejs.org/en/download/current/) includes detailed installation instructions for installing node.js to your system.
 
-In the project directory, you can run:
+## Getting Started
+These instructions will get your project running and deployed over Docker Hub.
+1. Git clone the reposity with command or fork it to you repository and git clone to that repository:
+```
+  git clone https://github.com/vardhmanhundia/ServerIndexing_ReactApp.git
+```
+2. Open cmd prompt and go to the root directory of the installed file.
+3. Install the previous version files from the version section below, You can also use dockerized container available in the versions for easy and fast build.
+4. Now, run the command below to install npm dependencies to your app
+```
+  npm install
+```
+5. Now all the necessary packages and files would be installed on your system. You can run below command for running react app on your system.
+```
+  npm start
+```
+6. For deploying the app you could use the below command
+``` 
+  npm deploy
+```
 
-### `npm start`
+## Outputs
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Dark Mode with all the features
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![alt text](https://github.com/vardhmanhundia/serverIndex_ReactApplication/blob/master/images/darkMode.gif)
 
-### `npm test`
+2. Light Mode with all the features
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![alt text](https://github.com/vardhmanhundia/serverIndex_ReactApplication/blob/master/images/lightMode.gif)
 
-### `npm run build`
+3. Mobile Responsive Mode
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![alt text](https://github.com/vardhmanhundia/serverIndex_ReactApplication/blob/master/images/mobileView.gif)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Versions
+Please checkout the previous versions for reference.
+### Previous Versions:
+- [SpringBoot_MongoDB](https://github.com/vardhmanhundia/ServerIndexing_springBot)
+- [Server Index Swagg UI](https://github.com/vardhmanhundia/Swaggi_ServerIndex)
+- [ServerIndex_Dockerized](https://github.com/vardhmanhundia/ServerIndex_Dockerized)
